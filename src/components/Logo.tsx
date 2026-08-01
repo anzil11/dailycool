@@ -19,7 +19,7 @@ export const Logo: React.FC<LogoProps> = ({
     <div className={`flex items-center gap-3 cursor-pointer group ${className}`}>
       {/* Emblem SVG mimicking the stylized 'C' loop with inner 'G/C' gradient circle */}
       <div className="relative w-11 h-11 flex-shrink-0">
-        <img style={{wid}} src="/public/logo-bg.png" alt="" />
+        <img  src="/logo-bg.png" alt="" />
         {/* <svg viewBox="0 0 100 100" className="w-full h-full drop-shadow-md transition-transform duration-300 group-hover:scale-105">
           <defs>
             <linearGradient id={gradId} x1="0%" y1="0%" x2="100%" y2="100%">
