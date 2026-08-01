@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --color-brand-dark: #071927;
+  --color-brand-navy: #0B2B40;
+  --color-brand-deep: #0F3F5D;
+  --color-brand-blue: #165682;
+  --color-brand-cyan: #00A3E0;
+  --color-brand-accent: #38BDF8;
+  --color-brand-light: #F0F7FF;
+}
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    background-color: #071927;
+    color: #F0F7FF;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #071927;
+}
+::-webkit-scrollbar-thumb {
+  background: #165682;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00A3E0;
+}
+
+/* Glassmorphism effects */
+.glass-panel {
+  background: rgba(15, 63, 93, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(11, 43, 64, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #38BDF8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-navy {
+  background: linear-gradient(135deg, #0B2B40 0%, #165682 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
