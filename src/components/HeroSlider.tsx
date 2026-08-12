@@ -63,7 +63,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onOpenEstima
   const handleDownloadPDF = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    // link.href = '/daily/proposal.pdf'; // Update path if your PDF is in a different location
+    link.href = '/src/DAILY_COOL (1).pdf'; // Update path if your PDF is in a different location
     link.download = 'MEP-Services.pdf';
     document.body.appendChild(link);
     link.click();
