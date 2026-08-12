@@ -217,12 +217,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenEstimato
             >
               Contact Us
             </button>
-            <button
+            {/* <button
               onClick={onOpenEstimator}
               className="px-6 py-3 rounded-xl text-xs font-bold uppercase tracking-wider text-white bg-white/10 border border-white/20 hover:bg-white/20"
             >
               Calculate Cost
-            </button>
+            </button> */}
           </div>
         </motion.div>
 

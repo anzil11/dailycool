@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Zap, Activity } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ArrowRight, ShieldCheck, Zap, Activity, Download } from 'lucide-react';
 import { HERO_SLIDES } from '../data/content';
 import gsap from 'gsap';
 
@@ -58,6 +58,16 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onOpenEstima
 
   const handlePrev = () => {
     setCurrentIndex((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length);
+  };
+
+  const handleDownloadPDF = () => {
+    // Create a link element and trigger download
+    const link = document.createElement('a');
+    link.href = '/daily/proposal.pdf'; // Update path if your PDF is in a different location
+    link.download = 'MEP-Services.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -140,10 +150,11 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onOpenEstima
             </button>
 
             <button
-              onClick={onOpenEstimator}
+              onClick={handleDownloadPDF}
               className="flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-bold text-slate-200 bg-slate-900/80 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 transition-all"
             >
-              <span>Project Cost Calculator</span>
+              <Download className="w-4 h-4" />
+              <span>Download Brochure</span>
             </button>
           </div>
         </div>
