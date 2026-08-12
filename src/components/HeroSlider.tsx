@@ -60,6 +60,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({ onNavigate, onOpenEstima
     setCurrentIndex((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length);
   };
 
+  
   const handleDownloadPDF = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
