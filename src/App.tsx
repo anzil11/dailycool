@@ -92,17 +92,17 @@ export default function App() {
         onQuoteRequest={handleQuoteWithService}
       />
 
-      <MEPCalculator
+      {/* <MEPCalculator
         isOpen={isEstimatorOpen}
         onClose={() => setIsEstimatorOpen(false)}
         onSubmitInquiry={handleInquiryFromEstimator}
-      />
+      /> */}
 
       {/* Quick Contact & WhatsApp Widget */}
-      <QuickContactWidget
+      {/* <QuickContactWidget
         onOpenEstimator={() => setIsEstimatorOpen(true)}
         onNavigateContact={() => handleNavigate('contact')}
-      />
+      /> */}
 
       {/* Global Footer */}
       <Footer 

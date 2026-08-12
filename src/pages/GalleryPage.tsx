@@ -112,7 +112,7 @@ export const GalleryPage: React.FC = () => {
         </div>
 
         {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-3">
+        {/* <div className="flex flex-wrap justify-center gap-3">
           {categories.map((category) => (
             <button
               key={category}
@@ -129,7 +129,7 @@ export const GalleryPage: React.FC = () => {
               {category}
             </button>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* Gallery Grid */}
@@ -147,20 +147,20 @@ export const GalleryPage: React.FC = () => {
                   alt={image.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                {/* <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                   <div className="text-white">
                     <h3 className="font-bold text-lg mb-1">{image.title}</h3>
                     <p className="text-sm text-slate-200">{image.category}</p>
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="p-4 bg-white">
+              {/* <div className="p-4 bg-white">
                 <h3 className="font-bold text-slate-900 mb-2">{image.title}</h3>
                 <p className="text-sm text-slate-600">{image.description}</p>
                 <span className="inline-block mt-3 text-xs font-semibold text-cyan-600 bg-cyan-50 px-3 py-1 rounded-full">
                   {image.category}
                 </span>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
