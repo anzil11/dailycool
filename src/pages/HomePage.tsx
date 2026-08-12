@@ -260,7 +260,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               </p>
             </div>
 
-            <div className="lg:col-span-4 flex justify-start lg:justify-end">
+            {/* <div className="lg:col-span-4 flex justify-start lg:justify-end">
               <button
                 onClick={onOpenEstimator}
                 className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-[#0B2B40] bg-cyan-400 hover:bg-cyan-300 shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-3"
@@ -268,7 +268,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <Calculator className="w-5 h-5" />
                 <span>Launch Estimator</span>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </motion.section>
@@ -445,13 +445,13 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <ArrowRight className="w-4 h-4" />
               </button>
 
-              <button
+              {/* <button
                 onClick={onOpenEstimator}
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg font-semibold text-white bg-slate-800/80 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 transition-all text-xs sm:text-sm"
               >
                 <Calculator className="w-4 h-4 text-cyan-400" />
                 <span>MEP Cost Calculator</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

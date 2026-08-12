@@ -6,6 +6,7 @@ import { AboutPage } from './pages/AboutPage';
 import { ServicesPage } from './pages/ServicesPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactPage } from './pages/ContactPage';
+import { GalleryPage } from './pages/GalleryPage';
 import { ServiceModal } from './components/ServiceModal';
 import { MEPCalculator } from './components/MEPCalculator';
 import { QuickContactWidget } from './components/QuickContactWidget';
@@ -65,6 +66,10 @@ export default function App() {
             onQuoteWithService={handleQuoteWithService}
             onOpenEstimator={() => setIsEstimatorOpen(true)}
           />
+        )}
+
+        {activeTab === 'gallery' && (
+          <GalleryPage />
         )}
 
         {activeTab === 'faq' && (

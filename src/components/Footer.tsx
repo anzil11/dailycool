@@ -58,13 +58,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEstimator }) =
                 </li>
               ))}
               <li>
-                <button
+                {/* <button
                   onClick={onOpenEstimator}
                   className="flex items-center gap-2 text-cyan-400 font-bold hover:text-cyan-300 transition-colors group pt-1"
                 >
                   <ChevronRight className="w-3 h-3 text-cyan-400 group-hover:translate-x-1 transition-all" />
                   <span>MEP Cost Calculator</span>
-                </button>
+                </button> */}
               </li>
             </ul>
           </div>

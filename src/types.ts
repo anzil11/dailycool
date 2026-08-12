@@ -1,7 +1,7 @@
 export interface ServiceItem {
   id: string;
   title: string;
-  category: 'Mechanical' | 'Electrical' | 'Plumbing' | 'Maintenance & Interiors';
+  category: 'Mechanical' | 'Electrical' | 'Plumbing' | 'Maintenance & Interiors' | 'Civil Works' | 'Security Systems';
   iconName: string;
   shortDesc: string;
   bulletPoints: string[];

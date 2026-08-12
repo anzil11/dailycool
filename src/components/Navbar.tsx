@@ -29,6 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenE
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About Us' },
     { id: 'services', label: 'Services' },
+     { id: 'gallery', label: 'Gallery' },
     { id: 'faq', label: 'FAQ' },
     { id: 'contact', label: 'Contact Us' },
   ];
@@ -120,13 +121,13 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenE
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <button
+            {/* <button
               onClick={onOpenEstimator}
               className="flex items-center gap-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-[#0B2B40] bg-slate-100 border border-slate-200 rounded-xl hover:bg-cyan-50 hover:border-cyan-300 transition-all shadow-sm group"
             >
               <Calculator className="w-4 h-4 text-cyan-700 group-hover:rotate-12 transition-transform" />
               <span>MEP Estimator</span>
-            </button>
+            </button> */}
 
             <button
               onClick={() => handleNavClick('contact')}

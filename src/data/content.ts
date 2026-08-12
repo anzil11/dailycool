@@ -5,7 +5,7 @@ export const COMPANY_INFO = {
   shortName: 'DAILY COOL',
   website: 'www.dailycool.ae',
   phones: ['+971 55 639 6003', '+971 55 618 0800'],
-  email: 'info@dailycool.ae',
+  email: 'dailycoolae@gmail.com|info@dailycool.ae',
   location: 'Dubai - UAE',
   address: 'Business Bay / Al Quoz Industrial Area, Dubai, United Arab Emirates',
   workingHours: 'Mon - Sat: 8:00 AM - 6:00 PM | 24/7 Emergency Response',
@@ -102,20 +102,19 @@ export const SERVICES_DATA: ServiceItem[] = [
     image: 'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80',
     popular: true
   },
-  {
-    id: 'ventilation-works',
-    title: 'Ventilation Works',
-    category: 'Mechanical',
-    iconName: 'Fan',
-    shortDesc: 'Fresh air and exhaust ventilation systems for clean indoor air quality.',
-    bulletPoints: [
-      'Supply and installation of mechanical ventilation systems for improved indoor air quality.',
-      'Design and installation of energy-efficient exhaust and fresh air systems for both commercial and residential buildings.',
-      'Kitchen hood exhaust and basement car park ventilation.',
-      'Acoustic sound attenuator and inline blower integration.'
-    ],
-    image: 'https://images.unsplash.com/photo-1631545826620-803271790473?auto=format&fit=crop&w=800&q=80'
-  },
+{
+  id: 'ventilation-works',
+  title: 'Ventilation Works',
+  category: 'Mechanical',
+  iconName: 'Fan',
+  shortDesc: 'Fresh air and exhaust ventilation systems for clean indoor air quality.',
+  bulletPoints: [
+    'Supply and installation of mechanical ventilation systems for improved indoor air quality.',
+    'Design and installation of energy-efficient exhaust and fresh air systems for both commercial and residential buildings.',
+    'Kitchen hood exhaust and basement car park ventilation.',
+    'Acoustic sound attenuator and inline blower integration.'
+  ],
+image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80'},
   {
     id: 'pump-maintenance-service',
     title: 'Pump Maintenance Service',
@@ -146,19 +145,32 @@ export const SERVICES_DATA: ServiceItem[] = [
     popular: true
   },
   {
-    id: 'irrigation-works',
-    title: 'Irrigation Works',
-    category: 'Plumbing',
-    iconName: 'Sprout',
-    shortDesc: 'Automated landscape and agricultural irrigation networks in UAE.',
-    bulletPoints: [
-      'Design, supply, and installation of efficient irrigation systems.',
-      'Maintenance and repair of irrigation networks for optimal water distribution.',
-      'Automation and optimization of irrigation for agricultural and landscape applications.',
-      'Drip irrigation, solenoid valves, and smart timer controllers.'
-    ],
-    image: 'https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&w=800&q=80'
-  },
+  id: 'interlock-works',
+  title: 'Interlock Works',
+  category: 'Civil Works',
+  iconName: 'LayoutGrid',
+  shortDesc: 'Professional interlock paving solutions for residential, commercial, and industrial projects in the UAE.',
+  bulletPoints: [
+    'Design, supply, and installation of premium interlock paving blocks.',
+    'Driveways, walkways, parking areas, patios, and landscape paving.',
+    'Repair, replacement, and maintenance of damaged interlock surfaces.',
+    'Durable, aesthetically appealing, and weather-resistant paving solutions.'
+  ],
+image: 'https://images.unsplash.com/photo-1599707254554-027aeb4deacd?auto=format&fit=crop&w=800&q=80'},
+  // {
+  //   id: 'irrigation-works',
+  //   title: 'Irrigation Works',
+  //   category: 'Plumbing',
+  //   iconName: 'Sprout',
+  //   shortDesc: 'Automated landscape and agricultural irrigation networks in UAE.',
+  //   bulletPoints: [
+  //     'Design, supply, and installation of efficient irrigation systems.',
+  //     'Maintenance and repair of irrigation networks for optimal water distribution.',
+  //     'Automation and optimization of irrigation for agricultural and landscape applications.',
+  //     'Drip irrigation, solenoid valves, and smart timer controllers.'
+  //   ],
+  //   image: 'https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&w=800&q=80'
+  // },
   {
     id: 'gi-ducting-works',
     title: 'G.I Ducting Works',
@@ -171,7 +183,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Maintenance and repair of GI ducting for efficient airflow and performance.',
       'Fire-rated ductwork compliance for commercial facilities.'
     ],
-    image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80'
+  image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'floorings',
@@ -243,7 +255,21 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Gypsum partition walls and acoustic ceiling panel integration.'
     ],
     image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80'
-  }
+  },
+  {
+  id: 'cctv-works',
+  title: 'CCTV Works',
+  category: 'Security Systems',
+  iconName: 'Camera',
+  shortDesc: 'Professional CCTV surveillance system installation and maintenance services across the UAE.',
+  bulletPoints: [
+    'Supply and installation of HD and IP CCTV camera systems.',
+    'Indoor and outdoor surveillance solutions for homes, offices, and commercial facilities.',
+    'DVR/NVR setup, remote monitoring, and mobile app integration.',
+    'Maintenance, troubleshooting, upgrades, and annual maintenance contracts (AMC).'
+  ],
+  image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80'
+},
 ];
 
 export const FAQ_DATA: FAQItem[] = [
@@ -286,7 +312,7 @@ export const FAQ_DATA: FAQItem[] = [
   {
     id: 'faq-7',
     question: 'How can I request a site inspection and detailed quotation?',
-    answer: 'You can request a free site visit by filling out our online contact form, calling us directly at +971 55 639 6003 or +971 55 618 0800, or sending project drawings to info@dailycool.ae. Our senior MEP engineer will arrange an inspection within 24 hours.',
+    answer: 'You can request a free site visit by filling out our online contact form, calling us directly at +971 55 639 6003 or +971 55 618 0800, or sending project drawings to dailycoolae@gmail.com|info@dailycool.ae. Our senior MEP engineer will arrange an inspection within 24 hours.',
     category: 'General'
   }
 ];
