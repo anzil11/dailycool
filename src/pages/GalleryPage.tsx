@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import dailyCool2 from '../img/Daily cool 2.jpeg';
+import dailyCool3 from '../img/Daily cool 3.jpeg';
+import dailyCool4 from '../img/Daily cool 4.jpeg';
+import dailyCool5 from '../img/Daily cool 5.jpeg';
+import dailyCool6 from '../img/Daily cool 6.jpeg';
+import dailyCool7 from '../img/Daily cool 7.jpeg';
+import dailyCool8 from '../img/Daily cool 8.jpeg';
+import dailyCool9 from '../img/Daily cool 9.jpeg';
+import dailyCool10 from '../img/Daily cool 10.jpeg';
 
 interface GalleryImage {
   id: number;
@@ -14,63 +23,63 @@ const GALLERY_IMAGES: GalleryImage[] = [
     id: 1,
     title: 'Central AC Installation',
     category: 'HVAC',
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool2,
     description: 'Professional central air conditioning installation in commercial building'
   },
   {
     id: 2,
     title: 'Electrical Switchgear Panel',
     category: 'Electrical',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool3,
     description: 'DEWA-compliant LV electrical panel installation'
   },
   {
     id: 3,
     title: 'Plumbing Infrastructure',
     category: 'Plumbing',
-    image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool4,
     description: 'Commercial plumbing system installation and maintenance'
   },
   {
     id: 4,
     title: 'VRF System Setup',
     category: 'HVAC',
-    image: 'https://images.unsplash.com/photo-1567359781514-3b963ff4a04b?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool5,
     description: 'Variable Refrigerant Flow system installation for luxury villas'
   },
   {
     id: 5,
     title: 'G.I Duct Network',
     category: 'Electrical',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool6,
     description: 'Galvanized steel duct fabrication and installation'
   },
   {
     id: 6,
     title: 'Water Tank Installation',
     category: 'Plumbing',
-    image: 'https://images.unsplash.com/photo-1581092918277-ddf26580b286?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool7,
     description: 'Large capacity water storage tank setup and testing'
   },
   {
     id: 7,
     title: 'Chiller Unit Installation',
     category: 'HVAC',
-    image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool8,
     description: 'Commercial chiller system installation in data center'
   },
   {
     id: 8,
     title: 'PPR Piping Network',
     category: 'Plumbing',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool9,
     description: 'Modern PPR plastic piping system installation'
   },
   {
     id: 9,
     title: 'Building Maintenance',
     category: 'General',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    image: dailyCool10,
     description: 'Annual building maintenance and inspection services'
   },
 ];
