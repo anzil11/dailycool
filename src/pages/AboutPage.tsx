@@ -228,5 +228,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenEstimato
 
       </div>
     </div>
+
+    
   );
 };
