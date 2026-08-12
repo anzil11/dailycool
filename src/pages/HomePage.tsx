@@ -274,7 +274,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </motion.section>
 
       {/* 6. Completed Projects Showcase */}
-      <ProjectsSection onQuoteWithService={onQuoteWithService} />
+      {/* <ProjectsSection onQuoteWithService={onQuoteWithService} /> */}
 
       {/* 7. Why Choose Daily Cool */}
       <motion.section 
