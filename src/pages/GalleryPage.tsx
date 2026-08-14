@@ -5,7 +5,7 @@ import dailyCool3 from '../img/Daily cool 3.jpeg';
 import dailyCool4 from '../img/Daily cool 4.jpeg';
 import dailyCool5 from '../img/Daily cool 5.jpeg';
 import dailyCool6 from '../img/Daily cool 6.jpeg';
-import dailyCool7 from '../img/Daily cool 7.jpeg';
+// import dailyCool7 from '../img/Daily cool 7.jpeg';
 import dailyCool8 from '../img/Daily cool 8.jpeg';
 import dailyCool9 from '../img/Daily cool 9.jpeg';
 import dailyCool10 from '../img/Daily cool 10.jpeg';
@@ -54,13 +54,13 @@ const GALLERY_IMAGES: GalleryImage[] = [
     image: dailyCool6,
     description: 'Galvanized steel duct fabrication and installation'
   },
-  {
-    id: 6,
-    title: 'Water Tank Installation',
-    category: 'Plumbing',
-    image: dailyCool7,
-    description: 'Large capacity water storage tank setup and testing'
-  },
+  // {
+  //   id: 6,
+  //   title: 'Water Tank Installation',
+  //   category: 'Plumbing',
+  //   image: dailyCool7,
+  //   description: 'Large capacity water storage tank setup and testing'
+  // },
   {
     id: 7,
     title: 'Chiller Unit Installation',

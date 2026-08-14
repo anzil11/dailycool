@@ -5,9 +5,9 @@ export const COMPANY_INFO = {
   shortName: 'DAILY COOL',
   website: 'www.dailycool.ae',
   phones: ['+971 55 639 6003', '+971 55 618 0800'],
-  email: 'dailycoolae@gmail.com|info@dailycool.ae',
+  email: 'dailycoolae@gmail.com    info@dailycool.ae',
   location: 'Dubai - UAE',
-  address: 'Business Bay / Al Quoz Industrial Area, Dubai, United Arab Emirates',
+  address: 'Al Kharamah, Dubai, United Arab Emirates',
   workingHours: 'Mon - Sat: 8:00 AM - 6:00 PM | 24/7 Emergency Response',
   pillars: ['MECHANICAL', 'ELECTRICAL', 'PLUMBING'],
   aboutText: [
