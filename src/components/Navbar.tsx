@@ -65,7 +65,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenE
               className="flex items-center gap-1.5 hover:text-cyan-300 transition-colors"
             >
               <Mail className="w-3.5 h-3.5 text-cyan-400" />
-              <span>{COMPANY_INFO.email}</span>
+              <span>dailycoolae@gmail.com | info@dailycool.ae</span>
+              {/* <span>{COMPANY_INFO.email}</span> */}
             </a>
           </div>
 

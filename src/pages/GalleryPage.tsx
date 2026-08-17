@@ -9,6 +9,8 @@ import dailyCool6 from '../img/Daily cool 6.jpeg';
 import dailyCool8 from '../img/Daily cool 8.jpeg';
 import dailyCool9 from '../img/Daily cool 9.jpeg';
 import dailyCool10 from '../img/Daily cool 10.jpeg';
+import dailyCool101 from '../img/Screenshot 2026-08-18 001658.png';
+
 
 interface GalleryImage {
   id: number;
@@ -80,6 +82,13 @@ const GALLERY_IMAGES: GalleryImage[] = [
     title: 'Building Maintenance',
     category: 'General',
     image: dailyCool10,
+    description: 'Annual building maintenance and inspection services'
+  },
+    {
+    id: 10,
+    title: ' Maintenance',
+    category: 'General',
+    image: dailyCool101,
     description: 'Annual building maintenance and inspection services'
   },
 ];
